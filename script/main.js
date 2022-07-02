@@ -14,7 +14,7 @@ let local = document.querySelector('.right');
 let result = "";
 
 function criptoMessage(){
-  let texto = document.querySelector('.input').value;
+  let texto = document.querySelector('.input').value.toLowerCase();
 
   if (texto == ""){
     titulo.innerHTML = "Informe um texto para ser criptografado";
