@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #F3F5FC;
+  
+}
+.logo{
+    margin-top: 40px;
+}
+.right{
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    width: 27vw;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right:40px;
+    margin:auto;
+    text-align: center;
+}
+.wrapInfos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.info{
+    width:20vw;
+    margin:auto;
+    margin-top: 20px;
+}
+.imgMessage{
+    width:20vw; 
+}
+main{
+    position:absolute;
+    left: 10%;
+
+}
+.input{
+    height:60vh;
+    width:40vw;
+    font-weight: 400;
+    font-size: 1.9em;
+    color: #0A3871;
+    background-color: #FFFFFF00;
+    border: 0;
+    outline: 0;
+    resize: none;
+    margin-top: 20px;
+}
+.input:focus{
+    border: none ;
+}
+.input::placeholder {
+    color: #0A3871;
+    
+}
+button{
+    margin-top: 20px;
+}
+
+
+.buttonCripto{
+    width: 25vw;
+    height: 60px;
+ 
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    border: 0;
+    outline:0;
+}
+
+.buttonDecripto{
+    width: 25vw;
+    height: 60px;
+    background: #F3F5FC;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+}
+.buttonCopy{
+    width: 25vw;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0)
+}
+.buttonCripto:hover,.buttonDecripto:hover,.buttonCopy:hover{
+    cursor: pointer;
+}
+.pt{
+    padding-top: 20px;
+}
